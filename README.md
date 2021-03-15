@@ -23,3 +23,7 @@ Perhaps this can be done by running an mlab or speed test server and saving the 
 ## How to Run
 
 Run `python draw_map.py` from the directory holding `tl_2020_24510` and `baltimore_data.csv` or `Fixed_Broadband_Deployment_Data__December_2019.csv`. Note: The FCC data is HUGE and hasn't been saved in this repository. You can get it [here](https://opendata.fcc.gov/Wireline/Fixed-Broadband-Deployment-Data-December-2019/whue-6pnt).
+
+Also you'll need to make sure you're using `python 3` and run this to install things with `pip`.
+
+`pip install matplotlib, shapefile`
